@@ -13,6 +13,9 @@
 		4826FB9F27D4C22500334758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4826FB9D27D4C22500334758 /* Main.storyboard */; };
 		4826FBA127D4C22700334758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4826FBA027D4C22700334758 /* Assets.xcassets */; };
 		4826FBA427D4C22700334758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4826FBA227D4C22700334758 /* LaunchScreen.storyboard */; };
+		4826FBAC27D5A79900334758 /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826FBAB27D5A79900334758 /* ViewCell.swift */; };
+		4826FBAE27D5A86200334758 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826FBAD27D5A86200334758 /* Video.swift */; };
+		4826FBB027D5B36200334758 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826FBAF27D5B36200334758 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4826FBA027D4C22700334758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4826FBA327D4C22700334758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4826FBA527D4C22700334758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4826FBAB27D5A79900334758 /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
+		4826FBAD27D5A86200334758 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		4826FBAF27D5B36200334758 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				4826FB9727D4C22500334758 /* AppDelegate.swift */,
 				4826FB9927D4C22500334758 /* SceneDelegate.swift */,
 				4826FB9B27D4C22500334758 /* ViewController.swift */,
+				4826FBAB27D5A79900334758 /* ViewCell.swift */,
+				4826FBAD27D5A86200334758 /* Video.swift */,
 				4826FB9D27D4C22500334758 /* Main.storyboard */,
 				4826FBA027D4C22700334758 /* Assets.xcassets */,
 				4826FBA227D4C22700334758 /* LaunchScreen.storyboard */,
 				4826FBA527D4C22700334758 /* Info.plist */,
+				4826FBAF27D5B36200334758 /* DetailVC.swift */,
 			);
 			path = AssignmentSevenTableView;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4826FBAC27D5A79900334758 /* ViewCell.swift in Sources */,
 				4826FB9C27D4C22500334758 /* ViewController.swift in Sources */,
 				4826FB9827D4C22500334758 /* AppDelegate.swift in Sources */,
+				4826FBAE27D5A86200334758 /* Video.swift in Sources */,
 				4826FB9A27D4C22500334758 /* SceneDelegate.swift in Sources */,
+				4826FBB027D5B36200334758 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
